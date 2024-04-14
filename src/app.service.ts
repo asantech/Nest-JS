@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getIntro(): string {
+    return 'This a sample reference "Nest JS" server';
   }
 }
